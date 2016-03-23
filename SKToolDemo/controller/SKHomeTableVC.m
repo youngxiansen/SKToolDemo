@@ -7,7 +7,7 @@
 //
 
 #import "SKHomeTableVC.h"
-
+#import "SKCatogyVC.h"
 @interface SKHomeTableVC ()<UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) NSArray* dataArray;
@@ -53,6 +53,19 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+
+    switch (indexPath.row) {
+        case 0:
+        {
+            SKCatogyVC* catogy = [[SKCatogyVC alloc]init];
+            [self.navigationController pushViewController:catogy animated:YES];
+        }
+        break;
+            
+        default:
+            break;
+    }
+
 }
 
 @end
