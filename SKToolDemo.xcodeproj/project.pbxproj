@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A0B78811CA28282004FF038 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B78801CA28282004FF038 /* main.m */; };
+		9A0B78841CA28282004FF038 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B78831CA28282004FF038 /* AppDelegate.m */; };
+		9A0B788A1CA28282004FF038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0B78881CA28282004FF038 /* Main.storyboard */; };
+		9A0B788C1CA28282004FF038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A0B788B1CA28282004FF038 /* Assets.xcassets */; };
+		9A0B788F1CA28282004FF038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0B788D1CA28282004FF038 /* LaunchScreen.storyboard */; };
+		9A0B789A1CA28282004FF038 /* SKToolDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B78991CA28282004FF038 /* SKToolDemoTests.m */; };
+		9A0B78A51CA28282004FF038 /* SKToolDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B78A41CA28282004FF038 /* SKToolDemoUITests.m */; };
+		9A0B78B91CA28315004FF038 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B78B71CA28315004FF038 /* ViewController.m */; };
+		9A0B78BC1CA2833F004FF038 /* SKBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B78BB1CA2833F004FF038 /* SKBaseVC.m */; };
+		9A0B78C01CA28367004FF038 /* SKHomeTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B78BE1CA28367004FF038 /* SKHomeTableVC.m */; };
+		9A0B78C11CA28367004FF038 /* SKHomeTableVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A0B78BF1CA28367004FF038 /* SKHomeTableVC.xib */; };
+		D575D1C837594200A8C1ABC3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD330B19EBA073B504D4131 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A0B78961CA28282004FF038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A0B78741CA28282004FF038 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A0B787B1CA28282004FF038;
+			remoteInfo = SKToolDemo;
+		};
+		9A0B78A11CA28282004FF038 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A0B78741CA28282004FF038 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A0B787B1CA28282004FF038;
+			remoteInfo = SKToolDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A0B787C1CA28282004FF038 /* SKToolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKToolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0B78801CA28282004FF038 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A0B78821CA28282004FF038 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A0B78831CA28282004FF038 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A0B78891CA28282004FF038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A0B788B1CA28282004FF038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A0B788E1CA28282004FF038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A0B78901CA28282004FF038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A0B78951CA28282004FF038 /* SKToolDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKToolDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0B78991CA28282004FF038 /* SKToolDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKToolDemoTests.m; sourceTree = "<group>"; };
+		9A0B789B1CA28282004FF038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A0B78A01CA28282004FF038 /* SKToolDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKToolDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0B78A41CA28282004FF038 /* SKToolDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKToolDemoUITests.m; sourceTree = "<group>"; };
+		9A0B78A61CA28282004FF038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A0B78B61CA28315004FF038 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A0B78B71CA28315004FF038 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A0B78BA1CA2833E004FF038 /* SKBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKBaseVC.h; sourceTree = "<group>"; };
+		9A0B78BB1CA2833F004FF038 /* SKBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKBaseVC.m; sourceTree = "<group>"; };
+		9A0B78BD1CA28367004FF038 /* SKHomeTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKHomeTableVC.h; sourceTree = "<group>"; };
+		9A0B78BE1CA28367004FF038 /* SKHomeTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKHomeTableVC.m; sourceTree = "<group>"; };
+		9A0B78BF1CA28367004FF038 /* SKHomeTableVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SKHomeTableVC.xib; sourceTree = "<group>"; };
+		ABD330B19EBA073B504D4131 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD94F2425B214CDF756AB53C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F4BDE474A66B41EA2EB29625 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A0B78791CA28282004FF038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D575D1C837594200A8C1ABC3 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0B78921CA28282004FF038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0B789D1CA28282004FF038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1148A9BEA746D6D0ABC3BADA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD94F2425B214CDF756AB53C /* Pods.debug.xcconfig */,
+				F4BDE474A66B41EA2EB29625 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A0B78731CA28282004FF038 = {
+			isa = PBXGroup;
+			children = (
+				9A0B787E1CA28282004FF038 /* SKToolDemo */,
+				9A0B78981CA28282004FF038 /* SKToolDemoTests */,
+				9A0B78A31CA28282004FF038 /* SKToolDemoUITests */,
+				9A0B787D1CA28282004FF038 /* Products */,
+				1148A9BEA746D6D0ABC3BADA /* Pods */,
+				DB30190C63E425BD5A2A364D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9A0B787D1CA28282004FF038 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A0B787C1CA28282004FF038 /* SKToolDemo.app */,
+				9A0B78951CA28282004FF038 /* SKToolDemoTests.xctest */,
+				9A0B78A01CA28282004FF038 /* SKToolDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A0B787E1CA28282004FF038 /* SKToolDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9A0B78821CA28282004FF038 /* AppDelegate.h */,
+				9A0B78831CA28282004FF038 /* AppDelegate.m */,
+				9A0B78B51CA28315004FF038 /* controller */,
+				9A0B78B81CA28315004FF038 /* model */,
+				9A0B78881CA28282004FF038 /* Main.storyboard */,
+				9A0B788B1CA28282004FF038 /* Assets.xcassets */,
+				9A0B788D1CA28282004FF038 /* LaunchScreen.storyboard */,
+				9A0B78901CA28282004FF038 /* Info.plist */,
+				9A0B787F1CA28282004FF038 /* Supporting Files */,
+			);
+			path = SKToolDemo;
+			sourceTree = "<group>";
+		};
+		9A0B787F1CA28282004FF038 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A0B78801CA28282004FF038 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A0B78981CA28282004FF038 /* SKToolDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A0B78991CA28282004FF038 /* SKToolDemoTests.m */,
+				9A0B789B1CA28282004FF038 /* Info.plist */,
+			);
+			path = SKToolDemoTests;
+			sourceTree = "<group>";
+		};
+		9A0B78A31CA28282004FF038 /* SKToolDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A0B78A41CA28282004FF038 /* SKToolDemoUITests.m */,
+				9A0B78A61CA28282004FF038 /* Info.plist */,
+			);
+			path = SKToolDemoUITests;
+			sourceTree = "<group>";
+		};
+		9A0B78B51CA28315004FF038 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A0B78B61CA28315004FF038 /* ViewController.h */,
+				9A0B78B71CA28315004FF038 /* ViewController.m */,
+				9A0B78BA1CA2833E004FF038 /* SKBaseVC.h */,
+				9A0B78BB1CA2833F004FF038 /* SKBaseVC.m */,
+				9A0B78BD1CA28367004FF038 /* SKHomeTableVC.h */,
+				9A0B78BE1CA28367004FF038 /* SKHomeTableVC.m */,
+				9A0B78BF1CA28367004FF038 /* SKHomeTableVC.xib */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		9A0B78B81CA28315004FF038 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		DB30190C63E425BD5A2A364D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABD330B19EBA073B504D4131 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A0B787B1CA28282004FF038 /* SKToolDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0B78A91CA28282004FF038 /* Build configuration list for PBXNativeTarget "SKToolDemo" */;
+			buildPhases = (
+				C0810AA0FC91819CB3135176 /* Check Pods Manifest.lock */,
+				9A0B78781CA28282004FF038 /* Sources */,
+				9A0B78791CA28282004FF038 /* Frameworks */,
+				9A0B787A1CA28282004FF038 /* Resources */,
+				212DDBF3F69339636ACB987C /* Embed Pods Frameworks */,
+				E8F2DEC310B395DE73B090EA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKToolDemo;
+			productName = SKToolDemo;
+			productReference = 9A0B787C1CA28282004FF038 /* SKToolDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A0B78941CA28282004FF038 /* SKToolDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0B78AC1CA28282004FF038 /* Build configuration list for PBXNativeTarget "SKToolDemoTests" */;
+			buildPhases = (
+				9A0B78911CA28282004FF038 /* Sources */,
+				9A0B78921CA28282004FF038 /* Frameworks */,
+				9A0B78931CA28282004FF038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A0B78971CA28282004FF038 /* PBXTargetDependency */,
+			);
+			name = SKToolDemoTests;
+			productName = SKToolDemoTests;
+			productReference = 9A0B78951CA28282004FF038 /* SKToolDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A0B789F1CA28282004FF038 /* SKToolDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0B78AF1CA28282004FF038 /* Build configuration list for PBXNativeTarget "SKToolDemoUITests" */;
+			buildPhases = (
+				9A0B789C1CA28282004FF038 /* Sources */,
+				9A0B789D1CA28282004FF038 /* Frameworks */,
+				9A0B789E1CA28282004FF038 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A0B78A21CA28282004FF038 /* PBXTargetDependency */,
+			);
+			name = SKToolDemoUITests;
+			productName = SKToolDemoUITests;
+			productReference = 9A0B78A01CA28282004FF038 /* SKToolDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A0B78741CA28282004FF038 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = youngxiansen;
+				TargetAttributes = {
+					9A0B787B1CA28282004FF038 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					9A0B78941CA28282004FF038 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 9A0B787B1CA28282004FF038;
+					};
+					9A0B789F1CA28282004FF038 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 9A0B787B1CA28282004FF038;
+					};
+				};
+			};
+			buildConfigurationList = 9A0B78771CA28282004FF038 /* Build configuration list for PBXProject "SKToolDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A0B78731CA28282004FF038;
+			productRefGroup = 9A0B787D1CA28282004FF038 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A0B787B1CA28282004FF038 /* SKToolDemo */,
+				9A0B78941CA28282004FF038 /* SKToolDemoTests */,
+				9A0B789F1CA28282004FF038 /* SKToolDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A0B787A1CA28282004FF038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0B788F1CA28282004FF038 /* LaunchScreen.storyboard in Resources */,
+				9A0B788C1CA28282004FF038 /* Assets.xcassets in Resources */,
+				9A0B78C11CA28367004FF038 /* SKHomeTableVC.xib in Resources */,
+				9A0B788A1CA28282004FF038 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0B78931CA28282004FF038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0B789E1CA28282004FF038 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		212DDBF3F69339636ACB987C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0810AA0FC91819CB3135176 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E8F2DEC310B395DE73B090EA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A0B78781CA28282004FF038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0B78B91CA28315004FF038 /* ViewController.m in Sources */,
+				9A0B78841CA28282004FF038 /* AppDelegate.m in Sources */,
+				9A0B78811CA28282004FF038 /* main.m in Sources */,
+				9A0B78C01CA28367004FF038 /* SKHomeTableVC.m in Sources */,
+				9A0B78BC1CA2833F004FF038 /* SKBaseVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0B78911CA28282004FF038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0B789A1CA28282004FF038 /* SKToolDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0B789C1CA28282004FF038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0B78A51CA28282004FF038 /* SKToolDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A0B78971CA28282004FF038 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A0B787B1CA28282004FF038 /* SKToolDemo */;
+			targetProxy = 9A0B78961CA28282004FF038 /* PBXContainerItemProxy */;
+		};
+		9A0B78A21CA28282004FF038 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A0B787B1CA28282004FF038 /* SKToolDemo */;
+			targetProxy = 9A0B78A11CA28282004FF038 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A0B78881CA28282004FF038 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A0B78891CA28282004FF038 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A0B788D1CA28282004FF038 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A0B788E1CA28282004FF038 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A0B78A71CA28282004FF038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A0B78A81CA28282004FF038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A0B78AA1CA28282004FF038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD94F2425B214CDF756AB53C /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKToolDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyskim.SKToolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A0B78AB1CA28282004FF038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4BDE474A66B41EA2EB29625 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKToolDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyskim.SKToolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A0B78AD1CA28282004FF038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SKToolDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyskim.SKToolDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKToolDemo.app/SKToolDemo";
+			};
+			name = Debug;
+		};
+		9A0B78AE1CA28282004FF038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SKToolDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyskim.SKToolDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKToolDemo.app/SKToolDemo";
+			};
+			name = Release;
+		};
+		9A0B78B01CA28282004FF038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SKToolDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyskim.SKToolDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SKToolDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9A0B78B11CA28282004FF038 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SKToolDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyskim.SKToolDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SKToolDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A0B78771CA28282004FF038 /* Build configuration list for PBXProject "SKToolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0B78A71CA28282004FF038 /* Debug */,
+				9A0B78A81CA28282004FF038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A0B78A91CA28282004FF038 /* Build configuration list for PBXNativeTarget "SKToolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0B78AA1CA28282004FF038 /* Debug */,
+				9A0B78AB1CA28282004FF038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A0B78AC1CA28282004FF038 /* Build configuration list for PBXNativeTarget "SKToolDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0B78AD1CA28282004FF038 /* Debug */,
+				9A0B78AE1CA28282004FF038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A0B78AF1CA28282004FF038 /* Build configuration list for PBXNativeTarget "SKToolDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A0B78B01CA28282004FF038 /* Debug */,
+				9A0B78B11CA28282004FF038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A0B78741CA28282004FF038 /* Project object */;
+}
