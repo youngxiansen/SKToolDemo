@@ -8,6 +8,7 @@
 
 #import "SKHomeTableVC.h"
 #import "SKCatogyVC.h"
+#import "SKNetworkVC.h"
 @interface SKHomeTableVC ()<UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) NSArray* dataArray;
@@ -25,7 +26,7 @@
 -(void)initInfo
 {
     _tableView.tableFooterView = [[UIView alloc]init];
-    _dataArray = @[@"分类"];
+    _dataArray = @[@"分类",@"网络"];
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -59,6 +60,15 @@
         {
             SKCatogyVC* catogy = [[SKCatogyVC alloc]init];
             [self.navigationController pushViewController:catogy animated:YES];
+        }
+        break;
+            
+        case 1:
+        {
+            
+            SKNetworkVC* network = [[SKNetworkVC alloc]init];
+            [self.navigationController pushViewController:network animated:YES];
+
         }
         break;
             
