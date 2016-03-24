@@ -38,7 +38,7 @@
 
 #define KKLogController NSLog(@"_________%s_________",__func__);
 
-#define KKLogNSSting(str) NSLog(@"#########%@",str)
+#define KKLogNSSting(str) NSLog(@"#########%@########",str)
 
 #define KKLogFrame(object) NSLog(@"%@的frame:%@",NSStringFromClass([object class]),NSStringFromCGRect(object.frame));
 

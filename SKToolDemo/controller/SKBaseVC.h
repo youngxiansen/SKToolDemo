@@ -12,7 +12,8 @@
 #import "UIViewController+AMNoticeAlertView.h"
 #import "SKHttpToolManager.h"
 #import "UIViewController+AMPickerTool.h"
-
+#import "SKLocalStoreTool.h"
+#import "SKGDLocationTool.h"
 
 typedef NS_ENUM(NSUInteger, SKPhotoType) {
     SKPhotoTypeEdit = 1,
@@ -27,7 +28,9 @@ typedef NS_ENUM(NSUInteger, SKItemType) {
 };
 @interface SKBaseVC : ViewController
 
+@property (strong, nonatomic) SKLocalStoreTool* localStroe;
 @property (strong, nonatomic) SKHttpToolManager* httpSessionManager;/**< 网络请求单例 */
+@property (strong, nonatomic) SKGDLocationTool* mapTool;/**< 高德地图管理 */
 
 #pragma mark --常用方法--
 -(void)configCall:(NSString*)phone;
@@ -59,6 +62,14 @@ typedef NS_ENUM(NSUInteger, SKItemType) {
  *  设置导航栏Item
  */
 -(void)setNavigationItemEventWithTitle:(NSString*)title action:(SEL)action type:(SKItemType)itemType itemImgName:(NSString*)imgName;
+
+/** 有点击事件 */
+-(void)showAlertVCContent:(NSString*)content cancleBlock:(void (^)())cancleBlock enSureBlock:(void (^)())enSureBlock;
+
+#pragma mark --弹框提示--
+
+/** 只有确定点击事件 */
+-(void)showAlertVCContent:(NSString*)content enSureBlock:(void (^)())enSureBlock;
 
 /**
  *  判断是否成功返回数据

@@ -8,6 +8,10 @@
 
 #import "AppDelegate.h"
 #import "SKHomeTableVC.h"
+#import <MAMapKit/MAMapKit.h>
+#import <AMapSearchKit/AMapSearchKit.h>
+
+const NSString* AMapAndSearchKey = @"ff5c7938ed2f0d81eb1e4005710fef19";
 @interface AppDelegate ()
 
 @end
@@ -16,7 +20,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    
+    [MAMapServices sharedServices].apiKey = (NSString*)AMapAndSearchKey;
+    [AMapSearchServices sharedServices].apiKey = (NSString*)AMapAndSearchKey;
     
     self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[[SKHomeTableVC alloc] init]];
     return YES;

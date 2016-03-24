@@ -9,6 +9,8 @@
 #import "SKHomeTableVC.h"
 #import "SKCatogyVC.h"
 #import "SKNetworkVC.h"
+#import "SKAlertVC.h"
+#import "SKAMapTableVC.h"
 @interface SKHomeTableVC ()<UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) NSArray* dataArray;
@@ -25,8 +27,9 @@
 
 -(void)initInfo
 {
+    self.title = @"工具类";
     _tableView.tableFooterView = [[UIView alloc]init];
-    _dataArray = @[@"分类",@"网络"];
+    _dataArray = @[@"分类",@"网络",@"自定义提示框",@"高德地图"];
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -68,6 +71,24 @@
             
             SKNetworkVC* network = [[SKNetworkVC alloc]init];
             [self.navigationController pushViewController:network animated:YES];
+
+        }
+        break;
+            
+        case 2:
+        {
+            
+            SKAlertVC* alert = [[SKAlertVC alloc]init];
+            [self.navigationController pushViewController:alert animated:YES];
+
+        }
+        break;
+            
+        case 3:
+        {
+            
+            SKAMapTableVC* amapTB = [[SKAMapTableVC alloc]init];
+            [self.navigationController pushViewController:amapTB animated:YES];
 
         }
         break;

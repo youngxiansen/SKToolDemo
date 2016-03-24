@@ -19,11 +19,27 @@
 
 @implementation SKBaseVC
 
+-(SKLocalStoreTool *)localStroe
+{
+    if (!_localStroe) {
+        _localStroe = [SKLocalStoreTool shareManager];
+    }
+    return _localStroe;
+}
+
 -(SKHttpToolManager *)httpSessionManager{
     if (_httpSessionManager == nil) {
         _httpSessionManager = [SKHttpToolManager shareManager];
     }
     return _httpSessionManager;
+}
+
+-(SKGDLocationTool *)mapTool
+{
+    if (!_mapTool) {
+        _mapTool = [SKGDLocationTool shareSKGDLocationToolManager];
+    }
+    return _mapTool;
 }
 
 - (void)viewDidLoad {
@@ -36,6 +52,7 @@
     self.extendedLayoutIncludesOpaqueBars = YES;
     
     [self inintNavigationBar];
+    
 
 }
 
@@ -284,8 +301,6 @@
 
 
 #pragma mark --弹框提示--
-
-
 
 /** 只有确定点击事件 */
 -(void)showAlertVCContent:(NSString*)content enSureBlock:(void (^)())enSureBlock
