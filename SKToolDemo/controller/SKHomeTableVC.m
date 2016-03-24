@@ -11,6 +11,8 @@
 #import "SKNetworkVC.h"
 #import "SKAlertVC.h"
 #import "SKAMapTableVC.h"
+#import "SKClassExtensionVC.h"
+#import "SKSearchToolVC.h"
 @interface SKHomeTableVC ()<UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) NSArray* dataArray;
@@ -29,7 +31,7 @@
 {
     self.title = @"工具类";
     _tableView.tableFooterView = [[UIView alloc]init];
-    _dataArray = @[@"分类",@"网络",@"自定义提示框",@"高德地图"];
+    _dataArray = @[@"分类",@"网络",@"自定义提示框",@"高德地图",@"类扩展",@"搜索"];
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -92,6 +94,23 @@
 
         }
         break;
+            
+        case 4:
+        {
+            
+            
+            SKClassExtensionVC* classExtension = [[SKClassExtensionVC alloc]init];
+            [self.navigationController pushViewController:classExtension animated:YES];
+        }
+            break;
+        case 5:
+        {
+            
+            SKSearchToolVC* search = [[SKSearchToolVC alloc]init];
+            [self.navigationController pushViewController:search animated:YES];
+
+        }
+            break;
             
         default:
             break;

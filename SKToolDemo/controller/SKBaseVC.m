@@ -261,8 +261,8 @@
 {
     [super viewWillDisappear:animated];
     [self.view endEditing:YES];
-    self.title = @"";
-    self.navigationItem.title = @"";
+//    self.title = @"";
+//    self.navigationItem.title = @"";
 }
 
 -(void)viewDidDisappear:(BOOL)animated
