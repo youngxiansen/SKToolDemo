@@ -560,7 +560,7 @@
     }
 }
 
-#pragma mark --打印类设置--
+#pragma mark --打印和调试类--
 
 -(void)showTestData:(NSString*)str
 {
@@ -587,6 +587,19 @@
             [arr NSLogArrayValueType];
         }
     }
+#else
+    
+#endif
+}
+
+/**
+ *  显示异常
+ */
+-(void)showAbnormalInfo:(NSString*)string
+{
+#ifdef DEBUG
+    BOOL isTrue = string&&![string isEqualToString:@""]&&![string isKindOfClass:[NSNull class]]&&![string isEqual:[NSNull null]];
+    NSAssert(isTrue, @"字符串空");
 #else
     
 #endif

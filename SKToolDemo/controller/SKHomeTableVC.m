@@ -13,6 +13,7 @@
 #import "SKAMapTableVC.h"
 #import "SKClassExtensionVC.h"
 #import "SKSearchToolVC.h"
+#import "SKOperation.h"
 @interface SKHomeTableVC ()<UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) NSArray* dataArray;
@@ -31,7 +32,7 @@
 {
     self.title = @"工具类";
     _tableView.tableFooterView = [[UIView alloc]init];
-    _dataArray = @[@"分类",@"网络",@"自定义提示框",@"高德地图",@"类扩展",@"搜索"];
+    _dataArray = @[@"分类",@"网络",@"自定义提示框",@"高德地图",@"类扩展",@"搜索",@"多线程"];
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -111,7 +112,15 @@
 
         }
             break;
+        
+        case 6:
+        {
             
+            SKOperation* operation = [[SKOperation alloc]init];
+            [self.navigationController pushViewController:operation animated:YES];
+
+        }
+            break;
         default:
             break;
     }

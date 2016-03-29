@@ -84,6 +84,7 @@
 		9AB048641CA391A100DE03B3 /* LocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB048631CA391A100DE03B3 /* LocationModel.m */; };
 		9AB0486B1CA39A3A00DE03B3 /* SKAMapSearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB048691CA39A3A00DE03B3 /* SKAMapSearchVC.m */; };
 		9AB0486C1CA39A3A00DE03B3 /* SKAMapSearchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AB0486A1CA39A3A00DE03B3 /* SKAMapSearchVC.xib */; };
+		9AD06E601CAA1FCF00EF81CA /* SKOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD06E5F1CAA1FCF00EF81CA /* SKOperation.m */; };
 		D575D1C837594200A8C1ABC3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD330B19EBA073B504D4131 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -243,6 +244,8 @@
 		9AB048681CA39A3A00DE03B3 /* SKAMapSearchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKAMapSearchVC.h; sourceTree = "<group>"; };
 		9AB048691CA39A3A00DE03B3 /* SKAMapSearchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKAMapSearchVC.m; sourceTree = "<group>"; };
 		9AB0486A1CA39A3A00DE03B3 /* SKAMapSearchVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SKAMapSearchVC.xib; sourceTree = "<group>"; };
+		9AD06E5E1CAA1FCF00EF81CA /* SKOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKOperation.h; sourceTree = "<group>"; };
+		9AD06E5F1CAA1FCF00EF81CA /* SKOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKOperation.m; sourceTree = "<group>"; };
 		ABD330B19EBA073B504D4131 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD94F2425B214CDF756AB53C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F4BDE474A66B41EA2EB29625 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -372,6 +375,8 @@
 				9A9F59601CA29B01004B7380 /* SKNetworkVC.h */,
 				9A9F59611CA29B01004B7380 /* SKNetworkVC.m */,
 				9A9F59621CA29B01004B7380 /* SKNetworkVC.xib */,
+				9AD06E5E1CAA1FCF00EF81CA /* SKOperation.h */,
+				9AD06E5F1CAA1FCF00EF81CA /* SKOperation.m */,
 				9A9F59951CA2C778004B7380 /* SKAlertVC.h */,
 				9A9F59961CA2C778004B7380 /* SKAlertVC.m */,
 				9A394FB61CA3C37100B66323 /* SKClassExtensionVC.h */,
@@ -875,6 +880,7 @@
 				9A394FB51CA3C32000B66323 /* SKCountDownBtn.m in Sources */,
 				9A9F598E1CA2A546004B7380 /* SKLocalStoreTool.m in Sources */,
 				9A9F59941CA2C690004B7380 /* SKAlertView.m in Sources */,
+				9AD06E601CAA1FCF00EF81CA /* SKOperation.m in Sources */,
 				9A0B78C51CA28896004FF038 /* NSString+SKString.m in Sources */,
 				9A9F59901CA2A622004B7380 /* Foundation+Log.m in Sources */,
 				9A9F59A01CA2D13A004B7380 /* SKBaseModel.m in Sources */,
@@ -1031,6 +1037,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				EXCLUDED_SOURCE_FILE_NAMES = "";
 				INFOPLIST_FILE = SKToolDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joyskim.SKToolDemo;
@@ -1044,6 +1051,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				EXCLUDED_SOURCE_FILE_NAMES = "FLEX*";
 				INFOPLIST_FILE = SKToolDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joyskim.SKToolDemo;

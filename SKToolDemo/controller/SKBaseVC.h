@@ -37,6 +37,11 @@ typedef NS_ENUM(NSUInteger, SKItemType) {
 
 -(void)showTestData:(NSString*)str;
 
+/**
+ *  显示异常
+ */
+-(void)showAbnormalInfo:(NSString*)string;
+
 /** 经纬度是否是有数值的 */
 -(BOOL)isValidLocation:(NSDictionary*)dic;
 

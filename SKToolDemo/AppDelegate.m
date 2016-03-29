@@ -21,7 +21,6 @@ const NSString* AMapAndSearchKey = @"ff5c7938ed2f0d81eb1e4005710fef19";
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    
     [MAMapServices sharedServices].apiKey = (NSString*)AMapAndSearchKey;
     [AMapSearchServices sharedServices].apiKey = (NSString*)AMapAndSearchKey;
     

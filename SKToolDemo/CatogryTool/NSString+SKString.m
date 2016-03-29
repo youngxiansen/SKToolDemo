@@ -144,6 +144,7 @@
  */
 +(BOOL)isNilOrEmptyString:(NSString*)string
 {
+    
     if ([string isKindOfClass:[NSNull class]]) {
         SKTestStrLog(@"**********传入的字符串%@为NULL**********",string);
         return YES;

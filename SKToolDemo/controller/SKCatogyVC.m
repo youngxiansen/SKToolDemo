@@ -23,6 +23,13 @@
     [self testLBHeight];
 }
 
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+   
+//
+//     NSParameterAssert(_textTF.text);
+}
+
 -(void)testLBHeight
 {
     NSString* str = @"本文首发在 CSDN《程序员》杂志，订阅地址 http://dingyue.programmer.com.cn/。Apple 在推出 Swift 时就将其冠以先进，安全和高效的新一代编程语言之名。前两点在 Swift 的语法和语言特性中已经表现得淋漓尽致：像是尾随闭包，枚举关联值，可选值和强制的类型安全等都是 Swift 显而易见的优点。但是对于高效一点，就没有那么明显了。在 2014 年 WWDC 大会上 Apple 宣称 Swift 具有超越 Objective-C 的性能，甚至某些情";
