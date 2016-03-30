@@ -55,6 +55,9 @@
 		9A394FCF1CA3C81700B66323 /* PinyinHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A394FC81CA3C81700B66323 /* PinyinHelper.m */; };
 		9A394FD01CA3C81700B66323 /* unicode_to_hanyu_pinyin.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A394FCA1CA3C81700B66323 /* unicode_to_hanyu_pinyin.txt */; };
 		9A394FD31CA3C85900B66323 /* SKSearchToolVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A394FD21CA3C85900B66323 /* SKSearchToolVC.m */; };
+		9A8663451CABD2F900B74FA7 /* SKSQliteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8663441CABD2F900B74FA7 /* SKSQliteVC.m */; };
+		9A8663491CABD44B00B74FA7 /* SKFMDBTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8663481CABD44B00B74FA7 /* SKFMDBTool.m */; };
+		9A86634C1CABD46D00B74FA7 /* dataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A86634B1CABD46D00B74FA7 /* dataModel.m */; };
 		9A9F59631CA29B01004B7380 /* SKNetworkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9F59611CA29B01004B7380 /* SKNetworkVC.m */; };
 		9A9F59641CA29B01004B7380 /* SKNetworkVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A9F59621CA29B01004B7380 /* SKNetworkVC.xib */; };
 		9A9F596A1CA29DB2004B7380 /* default1242-2208@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A9F59661CA29DB2004B7380 /* default1242-2208@2x.png */; };
@@ -198,6 +201,12 @@
 		9A394FCA1CA3C81700B66323 /* unicode_to_hanyu_pinyin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = unicode_to_hanyu_pinyin.txt; sourceTree = "<group>"; };
 		9A394FD11CA3C85900B66323 /* SKSearchToolVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSearchToolVC.h; sourceTree = "<group>"; };
 		9A394FD21CA3C85900B66323 /* SKSearchToolVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSearchToolVC.m; sourceTree = "<group>"; };
+		9A8663431CABD2F900B74FA7 /* SKSQliteVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSQliteVC.h; sourceTree = "<group>"; };
+		9A8663441CABD2F900B74FA7 /* SKSQliteVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSQliteVC.m; sourceTree = "<group>"; };
+		9A8663471CABD44B00B74FA7 /* SKFMDBTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKFMDBTool.h; sourceTree = "<group>"; };
+		9A8663481CABD44B00B74FA7 /* SKFMDBTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKFMDBTool.m; sourceTree = "<group>"; };
+		9A86634A1CABD46D00B74FA7 /* dataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dataModel.h; sourceTree = "<group>"; };
+		9A86634B1CABD46D00B74FA7 /* dataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dataModel.m; sourceTree = "<group>"; };
 		9A9F59601CA29B01004B7380 /* SKNetworkVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKNetworkVC.h; sourceTree = "<group>"; };
 		9A9F59611CA29B01004B7380 /* SKNetworkVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKNetworkVC.m; sourceTree = "<group>"; };
 		9A9F59621CA29B01004B7380 /* SKNetworkVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SKNetworkVC.xib; sourceTree = "<group>"; };
@@ -382,6 +391,8 @@
 				9A394FB61CA3C37100B66323 /* SKClassExtensionVC.h */,
 				9A394FB71CA3C37100B66323 /* SKClassExtensionVC.m */,
 				9A394FB81CA3C37100B66323 /* SKClassExtensionVC.xib */,
+				9A8663431CABD2F900B74FA7 /* SKSQliteVC.h */,
+				9A8663441CABD2F900B74FA7 /* SKSQliteVC.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -466,6 +477,7 @@
 		9A0B7A231CA29554004FF038 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				9A8663461CABD44B00B74FA7 /* SKFMDBTool */,
 				9A394FBB1CA3C71100B66323 /* SKSearchTool */,
 				9AB048581CA384C500DE03B3 /* SKGDLocation */,
 				9A9F59911CA2C690004B7380 /* SKAlertTool */,
@@ -558,6 +570,17 @@
 				9A394FCA1CA3C81700B66323 /* unicode_to_hanyu_pinyin.txt */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		9A8663461CABD44B00B74FA7 /* SKFMDBTool */ = {
+			isa = PBXGroup;
+			children = (
+				9A8663471CABD44B00B74FA7 /* SKFMDBTool.h */,
+				9A8663481CABD44B00B74FA7 /* SKFMDBTool.m */,
+				9A86634A1CABD46D00B74FA7 /* dataModel.h */,
+				9A86634B1CABD46D00B74FA7 /* dataModel.m */,
+			);
+			path = SKFMDBTool;
 			sourceTree = "<group>";
 		};
 		9A9F59651CA29DB2004B7380 /* img */ = {
@@ -856,6 +879,7 @@
 				9AB0486B1CA39A3A00DE03B3 /* SKAMapSearchVC.m in Sources */,
 				9A0B78841CA28282004FF038 /* AppDelegate.m in Sources */,
 				9A394FCF1CA3C81700B66323 /* PinyinHelper.m in Sources */,
+				9A8663451CABD2F900B74FA7 /* SKSQliteVC.m in Sources */,
 				9A9F59851CA2A518004B7380 /* AMDatePickerView.m in Sources */,
 				9A0B7A1B1CA29536004FF038 /* qrinput.c in Sources */,
 				9A2F8FB81CA2DED400F16C46 /* SKAMapTableVC.m in Sources */,
@@ -870,6 +894,7 @@
 				9A0B7A2B1CA2956F004FF038 /* SKHttpToolManager.m in Sources */,
 				9A0B78D91CA28AE7004FF038 /* NSArray+SKArray.m in Sources */,
 				9A2F8FB41CA2DE8E00F16C46 /* SKAMapVC.m in Sources */,
+				9A8663491CABD44B00B74FA7 /* SKFMDBTool.m in Sources */,
 				9AB0485B1CA384C500DE03B3 /* SKGDLocationTool.m in Sources */,
 				9A0B7A1E1CA29536004FF038 /* split.c in Sources */,
 				9A394FCC1CA3C81700B66323 /* HanyuPinyinOutputFormat.m in Sources */,
@@ -880,6 +905,7 @@
 				9A394FB51CA3C32000B66323 /* SKCountDownBtn.m in Sources */,
 				9A9F598E1CA2A546004B7380 /* SKLocalStoreTool.m in Sources */,
 				9A9F59941CA2C690004B7380 /* SKAlertView.m in Sources */,
+				9A86634C1CABD46D00B74FA7 /* dataModel.m in Sources */,
 				9AD06E601CAA1FCF00EF81CA /* SKOperation.m in Sources */,
 				9A0B78C51CA28896004FF038 /* NSString+SKString.m in Sources */,
 				9A9F59901CA2A622004B7380 /* Foundation+Log.m in Sources */,
