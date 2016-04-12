@@ -63,6 +63,28 @@
 //
 ////真机下执行
 //#endif
+#pragma mark --Xcode颜色修改--
+
+#define XCODE_COLORS_ESCAPE @"\033["
+
+#define XCODE_COLORS_RESET_FG  XCODE_COLORS_ESCAPE @"fg;" // Clear any foreground color
+#define XCODE_COLORS_RESET_BG  XCODE_COLORS_ESCAPE @"bg;" // Clear any background color
+#define XCODE_COLORS_RESET     XCODE_COLORS_ESCAPE @";"   // Clear any foreground or background color
+#define kkLogBlueColor(frmt, ...) NSLog((XCODE_COLORS_ESCAPE @"fg0,0,255;" frmt XCODE_COLORS_RESET), ##__VA_ARGS__)
+#define kkLogRedColor(frmt, ...) NSLog((XCODE_COLORS_ESCAPE @"fg255,0,0;" frmt XCODE_COLORS_RESET), ##__VA_ARGS__)
+
+// 时间间隔
+#define kHUDDuration            (1.f)
+// 一天的秒数
+#define SecondsOfDay            (24.f * 60.f * 60.f)
+// 秒数
+#define Seconds(Days)           (24.f * 60.f * 60.f * (Days))
+// 一天的毫秒数
+#define MillisecondsOfDay       (24.f * 60.f * 60.f * 1000.f)
+// 毫秒数
+#define Milliseconds(Days)      (24.f * 60.f * 60.f * 1000.f * (Days))
+
+
 
 
 #endif /* SKToolInterface_h */

@@ -3,3 +3,4 @@
 #2016-03-24 search AMap
 #2016-03-29 multipleTread
 #2016-03-30 fmdb
+#2016-04-12 ThirdLogin

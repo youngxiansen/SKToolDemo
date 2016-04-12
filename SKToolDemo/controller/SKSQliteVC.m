@@ -62,8 +62,11 @@
     self.view.backgroundColor = [UIColor whiteColor];
     _dataArray = [NSMutableArray array];
     
-    [self setNavigationItemEventWithTitle:@"添加模型" action:@selector(addModel) type:SKItemTypeLeftTitle itemImgName:@""];
-    [self setNavigationItemEventWithTitle:@"删除模型" action:@selector(deletModel) type:SKItemTypeRightTitle itemImgName:@""];
+    UIBarButtonItem* addItem = [[UIBarButtonItem alloc]initWithTitle:@"添加" style:UIBarButtonItemStyleDone target:self action:@selector(addModel)];
+    
+    UIBarButtonItem* deletItem = [[UIBarButtonItem alloc]initWithTitle:@"删除" style:UIBarButtonItemStyleDone target:self action:@selector(deletModel)];
+    
+    self.navigationItem.rightBarButtonItems = @[addItem,deletItem];
     
     _dataArray = [self.fmdb fetchAll];
     [_tableView reloadData];

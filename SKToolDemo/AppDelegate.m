@@ -6,12 +6,26 @@
 //  Copyright © 2016年 youngxiansen. All rights reserved.
 //
 
+
+
+
 #import "AppDelegate.h"
 #import "SKHomeTableVC.h"
 #import <MAMapKit/MAMapKit.h>
 #import <AMapSearchKit/AMapSearchKit.h>
+//以下分享和第三方登陆
+#import "UMSocial.h"
+#import "UMSocialSinaSSOHandler.h"
+#import "UMSocialWechatHandler.h"
+#import "UMSocialQQHandler.h"
 
+#import "SKTestVC.h"
+
+#pragma mark --暂时测试--
+#import "JMLoginUser.h"
+#import "JMLoginVC.h"
 const NSString* AMapAndSearchKey = @"ff5c7938ed2f0d81eb1e4005710fef19";
+const NSString* UMAppKey = @"570c8bae67e58e7bd7000853";
 @interface AppDelegate ()
 
 @end
@@ -21,12 +35,44 @@ const NSString* AMapAndSearchKey = @"ff5c7938ed2f0d81eb1e4005710fef19";
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+
     [MAMapServices sharedServices].apiKey = (NSString*)AMapAndSearchKey;
     [AMapSearchServices sharedServices].apiKey = (NSString*)AMapAndSearchKey;
+    
+    //分享和第三方登陆
+    [UMSocialData setAppKey:(NSString*)UMAppKey];
+    [self UMShareLogin];
+    
     
     self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[[SKHomeTableVC alloc] init]];
     return YES;
 }
+
+
+-(void)UMShareLogin
+{
+    //微博注意事项  记得修改安全域名和回调
+    [UMSocialSinaSSOHandler openNewSinaSSOWithAppKey:@"2468035343"
+                                              secret:@"9fdeebc4604630d5e8601f7a09ef3851"
+                                         RedirectURL:@"http://sns.whalecloud.com/sina2/callback"];
+    
+    [UMSocialQQHandler setQQWithAppId:@"100424468" appKey:@"c7394704798a158208a74ab60104f0ba" url:@"http://www.umeng.com/social"];
+    
+    
+    //设置微信AppId、appSecret，分享url 必须认证才行
+//    [UMSocialWechatHandler setWXAppId:@"wxd930ea5d5a258f4f" appSecret:@"db426a9829e4b49a0dcac7b4162da6b6" url:@"http://www.umeng.com/social"];
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    BOOL result = [UMSocialSnsService handleOpenURL:url];
+    if (result == FALSE) {
+        //调用其他SDK，例如支付宝SDK等
+    }
+    return result;
+}
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

@@ -15,6 +15,7 @@
 #import "SKSearchToolVC.h"
 #import "SKOperation.h"
 #import "SKSQliteVC.h"
+#import "SKThirdLoginVC.h"
 @interface SKHomeTableVC ()<UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) NSArray* dataArray;
@@ -31,9 +32,9 @@
 
 -(void)initInfo
 {
-    self.title = @"工具类";
+    self.title = @"Tools";
     _tableView.tableFooterView = [[UIView alloc]init];
-    _dataArray = @[@"Catogry",@"internetWork",@"customAlert",@"AMap",@"ClassExtension",@"search",@"multipleTRead",@"SQLite"];
+    _dataArray = @[@"Catogry",@"internetWork",@"customAlert",@"AMap",@"ClassExtension",@"search",@"multipleTRead",@"SQLite",@"THirdLogin"];
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -128,6 +129,14 @@
             
             SKSQliteVC* sqlite = [[SKSQliteVC alloc]init];
             [self.navigationController pushViewController:sqlite animated:YES];
+
+        }
+            break;
+        case 8:
+        {
+            
+            SKThirdLoginVC* thirdLogin = [[SKThirdLoginVC alloc]init];
+            [self.navigationController pushViewController:thirdLogin animated:YES];
 
         }
             break;

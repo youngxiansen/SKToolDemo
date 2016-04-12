@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A0418EF1CBB6B0000C0DBC2 /* JMLoginUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0418ED1CBB6B0000C0DBC2 /* JMLoginUser.m */; };
+		9A0418F01CBB6B0000C0DBC2 /* JMLoginUser.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A0418EE1CBB6B0000C0DBC2 /* JMLoginUser.xib */; };
+		9A0418F61CBB7A5300C0DBC2 /* loginAgree@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A0418F21CBB7A5300C0DBC2 /* loginAgree@2x.png */; };
+		9A0418F71CBB7A5300C0DBC2 /* loginAgree@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A0418F31CBB7A5300C0DBC2 /* loginAgree@3x.png */; };
+		9A0418F81CBB7A5300C0DBC2 /* loginDisAgree@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A0418F41CBB7A5300C0DBC2 /* loginDisAgree@2x.png */; };
+		9A0418F91CBB7A5300C0DBC2 /* loginDisAgree@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A0418F51CBB7A5300C0DBC2 /* loginDisAgree@3x.png */; };
 		9A0B78811CA28282004FF038 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B78801CA28282004FF038 /* main.m */; };
 		9A0B78841CA28282004FF038 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B78831CA28282004FF038 /* AppDelegate.m */; };
 		9A0B788A1CA28282004FF038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A0B78881CA28282004FF038 /* Main.storyboard */; };
@@ -55,9 +61,14 @@
 		9A394FCF1CA3C81700B66323 /* PinyinHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A394FC81CA3C81700B66323 /* PinyinHelper.m */; };
 		9A394FD01CA3C81700B66323 /* unicode_to_hanyu_pinyin.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A394FCA1CA3C81700B66323 /* unicode_to_hanyu_pinyin.txt */; };
 		9A394FD31CA3C85900B66323 /* SKSearchToolVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A394FD21CA3C85900B66323 /* SKSearchToolVC.m */; };
+		9A7E51B01CBCA04A0096FD15 /* JMLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7E51AE1CBCA04A0096FD15 /* JMLoginVC.m */; };
+		9A7E51B11CBCA04A0096FD15 /* JMLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A7E51AF1CBCA04A0096FD15 /* JMLoginVC.xib */; };
+		9A7E51B51CBCC52F0096FD15 /* SKThirdLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7E51B31CBCC52F0096FD15 /* SKThirdLoginVC.m */; };
+		9A7E51B61CBCC52F0096FD15 /* SKThirdLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A7E51B41CBCC52F0096FD15 /* SKThirdLoginVC.xib */; };
 		9A8663451CABD2F900B74FA7 /* SKSQliteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8663441CABD2F900B74FA7 /* SKSQliteVC.m */; };
 		9A8663491CABD44B00B74FA7 /* SKFMDBTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8663481CABD44B00B74FA7 /* SKFMDBTool.m */; };
 		9A86634C1CABD46D00B74FA7 /* dataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A86634B1CABD46D00B74FA7 /* dataModel.m */; };
+		9A86634F1CACB61800B74FA7 /* EZDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A86634E1CACB61800B74FA7 /* EZDAlertView.m */; };
 		9A9F59631CA29B01004B7380 /* SKNetworkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9F59611CA29B01004B7380 /* SKNetworkVC.m */; };
 		9A9F59641CA29B01004B7380 /* SKNetworkVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A9F59621CA29B01004B7380 /* SKNetworkVC.xib */; };
 		9A9F596A1CA29DB2004B7380 /* default1242-2208@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A9F59661CA29DB2004B7380 /* default1242-2208@2x.png */; };
@@ -81,6 +92,7 @@
 		9A9F599C1CA2CB9D004B7380 /* alertNotice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A9F599A1CA2CB9D004B7380 /* alertNotice@2x.png */; };
 		9A9F599D1CA2CB9D004B7380 /* alertNotice@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A9F599B1CA2CB9D004B7380 /* alertNotice@3x.png */; };
 		9A9F59A01CA2D13A004B7380 /* SKBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9F599F1CA2D13A004B7380 /* SKBaseModel.m */; };
+		9AADB9F21CB552A900FF2539 /* SKTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AADB9F11CB552A900FF2539 /* SKTestVC.m */; };
 		9AB0485B1CA384C500DE03B3 /* SKGDLocationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB0485A1CA384C500DE03B3 /* SKGDLocationTool.m */; };
 		9AB048601CA3852400DE03B3 /* SKMyPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB0485D1CA3852400DE03B3 /* SKMyPoint.m */; };
 		9AB048611CA3852400DE03B3 /* SKOtherPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB0485F1CA3852400DE03B3 /* SKOtherPoint.m */; };
@@ -109,6 +121,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A0418EC1CBB6B0000C0DBC2 /* JMLoginUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMLoginUser.h; sourceTree = "<group>"; };
+		9A0418ED1CBB6B0000C0DBC2 /* JMLoginUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMLoginUser.m; sourceTree = "<group>"; };
+		9A0418EE1CBB6B0000C0DBC2 /* JMLoginUser.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JMLoginUser.xib; sourceTree = "<group>"; };
+		9A0418F21CBB7A5300C0DBC2 /* loginAgree@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginAgree@2x.png"; sourceTree = "<group>"; };
+		9A0418F31CBB7A5300C0DBC2 /* loginAgree@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginAgree@3x.png"; sourceTree = "<group>"; };
+		9A0418F41CBB7A5300C0DBC2 /* loginDisAgree@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginDisAgree@2x.png"; sourceTree = "<group>"; };
+		9A0418F51CBB7A5300C0DBC2 /* loginDisAgree@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginDisAgree@3x.png"; sourceTree = "<group>"; };
 		9A0B787C1CA28282004FF038 /* SKToolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKToolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0B78801CA28282004FF038 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9A0B78821CA28282004FF038 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -201,12 +220,20 @@
 		9A394FCA1CA3C81700B66323 /* unicode_to_hanyu_pinyin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = unicode_to_hanyu_pinyin.txt; sourceTree = "<group>"; };
 		9A394FD11CA3C85900B66323 /* SKSearchToolVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSearchToolVC.h; sourceTree = "<group>"; };
 		9A394FD21CA3C85900B66323 /* SKSearchToolVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSearchToolVC.m; sourceTree = "<group>"; };
+		9A7E51AD1CBCA04A0096FD15 /* JMLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMLoginVC.h; sourceTree = "<group>"; };
+		9A7E51AE1CBCA04A0096FD15 /* JMLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMLoginVC.m; sourceTree = "<group>"; };
+		9A7E51AF1CBCA04A0096FD15 /* JMLoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JMLoginVC.xib; sourceTree = "<group>"; };
+		9A7E51B21CBCC52F0096FD15 /* SKThirdLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKThirdLoginVC.h; sourceTree = "<group>"; };
+		9A7E51B31CBCC52F0096FD15 /* SKThirdLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKThirdLoginVC.m; sourceTree = "<group>"; };
+		9A7E51B41CBCC52F0096FD15 /* SKThirdLoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SKThirdLoginVC.xib; sourceTree = "<group>"; };
 		9A8663431CABD2F900B74FA7 /* SKSQliteVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSQliteVC.h; sourceTree = "<group>"; };
 		9A8663441CABD2F900B74FA7 /* SKSQliteVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSQliteVC.m; sourceTree = "<group>"; };
 		9A8663471CABD44B00B74FA7 /* SKFMDBTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKFMDBTool.h; sourceTree = "<group>"; };
 		9A8663481CABD44B00B74FA7 /* SKFMDBTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKFMDBTool.m; sourceTree = "<group>"; };
 		9A86634A1CABD46D00B74FA7 /* dataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dataModel.h; sourceTree = "<group>"; };
 		9A86634B1CABD46D00B74FA7 /* dataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dataModel.m; sourceTree = "<group>"; };
+		9A86634D1CACB61800B74FA7 /* EZDAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZDAlertView.h; sourceTree = "<group>"; };
+		9A86634E1CACB61800B74FA7 /* EZDAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZDAlertView.m; sourceTree = "<group>"; };
 		9A9F59601CA29B01004B7380 /* SKNetworkVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKNetworkVC.h; sourceTree = "<group>"; };
 		9A9F59611CA29B01004B7380 /* SKNetworkVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKNetworkVC.m; sourceTree = "<group>"; };
 		9A9F59621CA29B01004B7380 /* SKNetworkVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SKNetworkVC.xib; sourceTree = "<group>"; };
@@ -242,6 +269,8 @@
 		9A9F599B1CA2CB9D004B7380 /* alertNotice@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alertNotice@3x.png"; sourceTree = "<group>"; };
 		9A9F599E1CA2D13A004B7380 /* SKBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKBaseModel.h; sourceTree = "<group>"; };
 		9A9F599F1CA2D13A004B7380 /* SKBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKBaseModel.m; sourceTree = "<group>"; };
+		9AADB9F01CB552A900FF2539 /* SKTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTestVC.h; sourceTree = "<group>"; };
+		9AADB9F11CB552A900FF2539 /* SKTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTestVC.m; sourceTree = "<group>"; };
 		9AB048591CA384C500DE03B3 /* SKGDLocationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKGDLocationTool.h; sourceTree = "<group>"; };
 		9AB0485A1CA384C500DE03B3 /* SKGDLocationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKGDLocationTool.m; sourceTree = "<group>"; };
 		9AB0485C1CA3852400DE03B3 /* SKMyPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKMyPoint.h; sourceTree = "<group>"; };
@@ -295,6 +324,31 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9A0418EB1CBB6ADE00C0DBC2 /* company */ = {
+			isa = PBXGroup;
+			children = (
+				9A0418F11CBB7A5300C0DBC2 /* img */,
+				9A0418EC1CBB6B0000C0DBC2 /* JMLoginUser.h */,
+				9A0418ED1CBB6B0000C0DBC2 /* JMLoginUser.m */,
+				9A0418EE1CBB6B0000C0DBC2 /* JMLoginUser.xib */,
+				9A7E51AD1CBCA04A0096FD15 /* JMLoginVC.h */,
+				9A7E51AE1CBCA04A0096FD15 /* JMLoginVC.m */,
+				9A7E51AF1CBCA04A0096FD15 /* JMLoginVC.xib */,
+			);
+			path = company;
+			sourceTree = "<group>";
+		};
+		9A0418F11CBB7A5300C0DBC2 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				9A0418F21CBB7A5300C0DBC2 /* loginAgree@2x.png */,
+				9A0418F31CBB7A5300C0DBC2 /* loginAgree@3x.png */,
+				9A0418F41CBB7A5300C0DBC2 /* loginDisAgree@2x.png */,
+				9A0418F51CBB7A5300C0DBC2 /* loginDisAgree@3x.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
 		9A0B78731CA28282004FF038 = {
 			isa = PBXGroup;
 			children = (
@@ -324,6 +378,7 @@
 				9A0B78831CA28282004FF038 /* AppDelegate.m */,
 				9A0B78F81CA293D6004FF038 /* SKInterFace.h */,
 				9A0B78F71CA28E00004FF038 /* SKToolInterface.h */,
+				9A0418EB1CBB6ADE00C0DBC2 /* company */,
 				9A394FAD1CA3C32000B66323 /* classExtensoin */,
 				9A9F59651CA29DB2004B7380 /* img */,
 				9A0B7A231CA29554004FF038 /* Tool */,
@@ -373,6 +428,8 @@
 				9A2F8FB01CA2DE8E00F16C46 /* 高德 */,
 				9A0B78B61CA28315004FF038 /* ViewController.h */,
 				9A0B78B71CA28315004FF038 /* ViewController.m */,
+				9AADB9F01CB552A900FF2539 /* SKTestVC.h */,
+				9AADB9F11CB552A900FF2539 /* SKTestVC.m */,
 				9A0B78BA1CA2833E004FF038 /* SKBaseVC.h */,
 				9A0B78BB1CA2833F004FF038 /* SKBaseVC.m */,
 				9A0B78BD1CA28367004FF038 /* SKHomeTableVC.h */,
@@ -393,6 +450,9 @@
 				9A394FB81CA3C37100B66323 /* SKClassExtensionVC.xib */,
 				9A8663431CABD2F900B74FA7 /* SKSQliteVC.h */,
 				9A8663441CABD2F900B74FA7 /* SKSQliteVC.m */,
+				9A7E51B21CBCC52F0096FD15 /* SKThirdLoginVC.h */,
+				9A7E51B31CBCC52F0096FD15 /* SKThirdLoginVC.m */,
+				9A7E51B41CBCC52F0096FD15 /* SKThirdLoginVC.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -638,6 +698,8 @@
 				9A9F599B1CA2CB9D004B7380 /* alertNotice@3x.png */,
 				9A9F59921CA2C690004B7380 /* SKAlertView.h */,
 				9A9F59931CA2C690004B7380 /* SKAlertView.m */,
+				9A86634D1CACB61800B74FA7 /* EZDAlertView.h */,
+				9A86634E1CACB61800B74FA7 /* EZDAlertView.m */,
 			);
 			path = SKAlertTool;
 			sourceTree = "<group>";
@@ -775,21 +837,28 @@
 				9A9F59861CA2A518004B7380 /* AMDatePickerView.xib in Resources */,
 				9A0B7A211CA29536004FF038 /* notice_alert_gou@2x.png in Resources */,
 				9A9F59641CA29B01004B7380 /* SKNetworkVC.xib in Resources */,
+				9A0418F01CBB6B0000C0DBC2 /* JMLoginUser.xib in Resources */,
 				9A2F8FB51CA2DE8E00F16C46 /* SKAMapVC.xib in Resources */,
 				9A9F59881CA2A518004B7380 /* AMPickerChooseView.xib in Resources */,
 				9A9F599D1CA2CB9D004B7380 /* alertNotice@3x.png in Resources */,
+				9A7E51B11CBCA04A0096FD15 /* JMLoginVC.xib in Resources */,
 				9A394FBA1CA3C37100B66323 /* SKClassExtensionVC.xib in Resources */,
 				9A0B78CA1CA28964004FF038 /* SKCatogyVC.xib in Resources */,
 				9A394FB31CA3C32000B66323 /* choose@2x.png in Resources */,
+				9A7E51B61CBCC52F0096FD15 /* SKThirdLoginVC.xib in Resources */,
+				9A0418F71CBB7A5300C0DBC2 /* loginAgree@3x.png in Resources */,
+				9A0418F91CBB7A5300C0DBC2 /* loginDisAgree@3x.png in Resources */,
 				9A9F596F1CA29DF2004B7380 /* Images.xcassets in Resources */,
 				9AB0486C1CA39A3A00DE03B3 /* SKAMapSearchVC.xib in Resources */,
 				9A9F596A1CA29DB2004B7380 /* default1242-2208@2x.png in Resources */,
 				9A394FD01CA3C81700B66323 /* unicode_to_hanyu_pinyin.txt in Resources */,
 				9A9F596D1CA29DB2004B7380 /* default750-1334@2x.png in Resources */,
+				9A0418F81CBB7A5300C0DBC2 /* loginDisAgree@2x.png in Resources */,
 				9A9F596C1CA29DB2004B7380 /* default640-960@2x.png in Resources */,
 				9A9F599C1CA2CB9D004B7380 /* alertNotice@2x.png in Resources */,
 				9A9F596B1CA29DB2004B7380 /* default640-1136@2x.png in Resources */,
 				9A0B788F1CA28282004FF038 /* LaunchScreen.storyboard in Resources */,
+				9A0418F61CBB7A5300C0DBC2 /* loginAgree@2x.png in Resources */,
 				9A0B7A201CA29536004FF038 /* notice_alert_error@2x.png in Resources */,
 				9A0B788C1CA28282004FF038 /* Assets.xcassets in Resources */,
 				9A0B78C11CA28367004FF038 /* SKHomeTableVC.xib in Resources */,
@@ -873,10 +942,12 @@
 				9A0B7A181CA29536004FF038 /* bitstream.c in Sources */,
 				9A0B78B91CA28315004FF038 /* ViewController.m in Sources */,
 				9A394FCB1CA3C81700B66323 /* ChineseToPinyinResource.m in Sources */,
+				9A0418EF1CBB6B0000C0DBC2 /* JMLoginUser.m in Sources */,
 				9A0B7A191CA29536004FF038 /* mask.c in Sources */,
 				9AB048601CA3852400DE03B3 /* SKMyPoint.m in Sources */,
 				9A9F59981CA2C778004B7380 /* SKAlertVC.m in Sources */,
 				9AB0486B1CA39A3A00DE03B3 /* SKAMapSearchVC.m in Sources */,
+				9A7E51B01CBCA04A0096FD15 /* JMLoginVC.m in Sources */,
 				9A0B78841CA28282004FF038 /* AppDelegate.m in Sources */,
 				9A394FCF1CA3C81700B66323 /* PinyinHelper.m in Sources */,
 				9A8663451CABD2F900B74FA7 /* SKSQliteVC.m in Sources */,
@@ -889,6 +960,7 @@
 				9A0B78DC1CA28AE7004FF038 /* NSDictionary+SKDic.m in Sources */,
 				9A9F598A1CA2A518004B7380 /* UIViewController+AMPickerTool.m in Sources */,
 				9A0B7A1A1CA29536004FF038 /* qrencode.c in Sources */,
+				9A86634F1CACB61800B74FA7 /* EZDAlertView.m in Sources */,
 				9A0B78811CA28282004FF038 /* main.m in Sources */,
 				9A9F59791CA2A392004B7380 /* SKHTTPSessionManager.m in Sources */,
 				9A0B7A2B1CA2956F004FF038 /* SKHttpToolManager.m in Sources */,
@@ -901,6 +973,7 @@
 				9AB048641CA391A100DE03B3 /* LocationModel.m in Sources */,
 				9A0B78C01CA28367004FF038 /* SKHomeTableVC.m in Sources */,
 				9A0B7A1D1CA29536004FF038 /* rscode.c in Sources */,
+				9A7E51B51CBCC52F0096FD15 /* SKThirdLoginVC.m in Sources */,
 				9A394FCD1CA3C81700B66323 /* NSString+PinYin4Cocoa.m in Sources */,
 				9A394FB51CA3C32000B66323 /* SKCountDownBtn.m in Sources */,
 				9A9F598E1CA2A546004B7380 /* SKLocalStoreTool.m in Sources */,
@@ -913,6 +986,7 @@
 				9A394FD31CA3C85900B66323 /* SKSearchToolVC.m in Sources */,
 				9A9F59761CA2A217004B7380 /* UIViewController+AMAutoKeyBoardVC.m in Sources */,
 				9A9F59751CA2A217004B7380 /* AMAutoTextField.m in Sources */,
+				9AADB9F21CB552A900FF2539 /* SKTestVC.m in Sources */,
 				9AB048611CA3852400DE03B3 /* SKOtherPoint.m in Sources */,
 				9A0B78DD1CA28AE7004FF038 /* UIColor+SKColor.m in Sources */,
 				9A0B78DB1CA28AE7004FF038 /* NSDate+SKDate.m in Sources */,
@@ -1063,6 +1137,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_BITCODE = NO;
 				EXCLUDED_SOURCE_FILE_NAMES = "";
 				INFOPLIST_FILE = SKToolDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1077,6 +1152,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_BITCODE = NO;
 				EXCLUDED_SOURCE_FILE_NAMES = "FLEX*";
 				INFOPLIST_FILE = SKToolDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

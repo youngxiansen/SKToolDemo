@@ -8,6 +8,7 @@
 
 #import "SKAlertVC.h"
 #import "SKAlertView.h"
+#import "EZDAlertView.h"
 @interface SKAlertVC ()
 
 @end
@@ -55,14 +56,26 @@
 
 -(void)showAlertView
 {
-    SKAlertView* alertView = [[SKAlertView alloc]init];
+//    SKAlertView* alertView = [[SKAlertView alloc]init];
+//    [self.view.window addSubview:alertView];
+//    
+//    [alertView showAlertViewContent:@"自定义文字" EnSureBlock:^{
+//        KKLogNSSting(@"确定");
+//    } cancleBlock:^{
+//        KKLogNSSting(@"取消");
+//    }];
+    
+    
+    
+    EZDAlertView* alertView = [[EZDAlertView alloc]init];
     [self.view.window addSubview:alertView];
     
-    [alertView showAlertViewContent:@"自定义文字" EnSureBlock:^{
-        KKLogNSSting(@"确定");
+    [alertView showAlertViewContent:@"EZD测试弹框" EnSureBlock:^{
+        NSLog(@"确定");
     } cancleBlock:^{
-        KKLogNSSting(@"取消");
+        NSLog(@"取消");
     }];
+
 
 }
 
