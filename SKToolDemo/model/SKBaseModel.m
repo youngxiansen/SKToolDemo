@@ -22,7 +22,7 @@
     
     //判断返回的值的类型
     [responseObject[@"data"] NSLogDicValueType];
-    return [self objectWithKeyValues:responseObject[@"data"]];
+    return [self mj_objectWithKeyValues:responseObject[@"data"]];
 }
 
 /**
@@ -41,7 +41,7 @@
         return [NSMutableArray array];
     }
     NSMutableArray *dataArray = [NSMutableArray array];
-    dataArray = [self objectArrayWithKeyValuesArray:responseObject[@"data"]];
+    dataArray = [self mj_objectArrayWithKeyValuesArray:responseObject[@"data"]];
     return dataArray;
     
 }

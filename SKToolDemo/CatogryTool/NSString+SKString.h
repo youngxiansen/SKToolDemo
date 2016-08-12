@@ -73,6 +73,12 @@
  */
 +(BOOL)isStringHaveNumberWithStr:(NSString*)str;
 
+/**
+ *  判断字符串中是否有英语字母YES有数字NO没有数字
+ *  @return YES有数字NO没有数字
+ */
++(BOOL)isStringHaveLetterWithStr:(NSString*)str;
+
 /** 判断身份证号是否合法YES合法NO不合法 */
 +(BOOL)isValidateIdentityCard:(NSString *)identityCard;
 
@@ -119,4 +125,17 @@
 +(NSString*)getSafePhoneNumber:(NSString*)phone;
 
 +(NSString *)getCachePath;
+
+/**
+ *  看保留几位小数
+ *  num 为保留的小数
+ */
++(NSString*)skHandleFloatNumber:(NSString*)str;
+
+/**
+ *  取整数 如果小数部分大于0的话整数加1
+ */
++(NSString*)getUpperIntString:(NSString*)str;
+
++(NSString*)changeLowerCharToUpper:(NSString*)str;
 @end

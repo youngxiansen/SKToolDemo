@@ -8,6 +8,9 @@ pod 'AMapSearch' #搜索服务SDK
 
 pod 'FLEX', '~> 2.0', :configurations => ['Debug']
 
+pod 'FMDB'
+
+pod 'Masonry'
 
 pod 'UMengSocial', '~> 5.0'#第三方登陆和分享  目前只做登陆
 

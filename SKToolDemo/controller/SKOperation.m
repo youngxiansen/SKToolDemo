@@ -102,7 +102,6 @@
  */
 -(void)oprationQueueDepend
 {
-
     NSInvocationOperation* invocationA = [[NSInvocationOperation alloc]initWithTarget:self selector:@selector(testTReadA) object:nil];
      NSInvocationOperation* invocationB = [[NSInvocationOperation alloc]initWithTarget:self selector:@selector(testTReadB) object:nil];
     

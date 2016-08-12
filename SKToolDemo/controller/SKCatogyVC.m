@@ -8,10 +8,10 @@
 
 #import "SKCatogyVC.h"
 #import "UILabel+SKLabel.h"
-@interface SKCatogyVC ()
+#import "SKTextView.h"
+@interface SKCatogyVC ()<UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *textTF;
 @property (weak, nonatomic) IBOutlet UILabel *testLB;
-
 @end
 
 @implementation SKCatogyVC
@@ -21,13 +21,36 @@
     
     self.title = @"分类测试";
     [self testLBHeight];
+    
+    _textTF.delegate = self;
+    [_textTF addTarget:self action:@selector(upperStr) forControlEvents:UIControlEventEditingChanged];
+
+}
+
+-(void)upperStr
+{
+    
+    _textTF.text = [NSString changeLowerCharToUpper:_textTF.text];
+    
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-   
+
+    NSLog(@"-----%@",_textTF.text);
 //
 //     NSParameterAssert(_textTF.text);
+}
+#define kMaxLength 6
+- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
+{
+    NSString * toBeString = [textField.text stringByReplacingCharactersInRange:range withString:string];
+    
+    if (toBeString.length > kMaxLength && range.length!=1){
+        textField.text = [toBeString substringToIndex:kMaxLength];
+        return NO;
+    }
+    return YES;
 }
 
 -(void)testLBHeight
@@ -46,6 +69,11 @@
     
 }
 
-
+-(void)scrollViewDidScroll:(UIScrollView *)scrollView{
+    kkLogRedColor(@"%f",scrollView.contentOffset.y);
+}
+- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView{
+    
+}
 
 @end

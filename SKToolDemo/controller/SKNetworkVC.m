@@ -8,6 +8,7 @@
 
 #import "SKNetworkVC.h"
 #import "SKHTTPSessionManager.h"
+
 @interface SKNetworkVC ()
 
 @end
@@ -16,8 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    // Do any additional setup after loading the view from its nib
 }
+
 
 - (IBAction)clickNetworkBtn:(UIButton *)sender {
     
@@ -33,20 +35,20 @@
         
     }];
     
-//    [self postProgressWithInterface:kGetCode params:dic Success:^(NSURLSessionDataTask *task, NSDictionary *responseObject) {
-//        if ([self isSuccessReturnData:responseObject]) {
-//            
-//            [self showSuccessAlertWithTitleStr:@"已发送"];
-//
-//        }
-//        else
-//        {
-////            [self showAlertVCContentWithoutEvent:responseObject[@"msg"]];
-//        }
-//        
-//    } Failure:^(NSURLSessionDataTask *task, NSError *error) {
-//        
-//    }];
+    [self postProgressWithInterface:kGetCode params:dic Success:^(NSURLSessionDataTask *task, NSDictionary *responseObject) {
+        if ([self isSuccessReturnData:responseObject]) {
+            
+            [self showSuccessAlertWithTitleStr:@"已发送"];
+
+        }
+        else
+        {
+//            [self showAlertVCContentWithoutEvent:responseObject[@"msg"]];
+        }
+        
+    } Failure:^(NSURLSessionDataTask *task, NSError *error) {
+        
+    }];
 
 }
 

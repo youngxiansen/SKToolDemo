@@ -1,1 +1,47 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - AMap3DMap (3.3.2)
+  - AMapSearch (3.3.0)
+  - FLEX (2.1.1)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - Masonry (1.0.0)
+  - MJExtension (3.0.10)
+  - UMengSocial (5.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - AMap3DMap
+  - AMapSearch
+  - FLEX (~> 2.0)
+  - FMDB
+  - Masonry
+  - MJExtension
+  - UMengSocial (~> 5.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AMap3DMap: 6315b7489cb60b1c47bb51169b409c20efa5f527
+  AMapSearch: cff4faf59c007f7d1f2bae2d7170c3912783981a
+  FLEX: 27b768fcae23a313a1eb115076d429180ca9b472
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  Masonry: b529bb169217897b6354d4b56b1fada6d475b13d
+  MJExtension: d86aacb740c87519d20e3cca55b6fa4be6cc7548
+  UMengSocial: 48b67179c492a8cf7803fbb0438b8f55432e2fc1
+
 COCOAPODS: 0.39.0

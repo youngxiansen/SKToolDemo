@@ -46,6 +46,7 @@
 		9A0B7A211CA29536004FF038 /* notice_alert_gou@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A0B7A151CA29536004FF038 /* notice_alert_gou@2x.png */; };
 		9A0B7A221CA29536004FF038 /* UIViewController+AMNoticeAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7A171CA29536004FF038 /* UIViewController+AMNoticeAlertView.m */; };
 		9A0B7A2B1CA2956F004FF038 /* SKHttpToolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B7A291CA2956F004FF038 /* SKHttpToolManager.m */; };
+		9A1DF4F11D263E5400C0848F /* appclient.cer in Resources */ = {isa = PBXBuildFile; fileRef = 9A1DF4F01D263E5400C0848F /* appclient.cer */; };
 		9A2F8FB41CA2DE8E00F16C46 /* SKAMapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2F8FB21CA2DE8E00F16C46 /* SKAMapVC.m */; };
 		9A2F8FB51CA2DE8E00F16C46 /* SKAMapVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A2F8FB31CA2DE8E00F16C46 /* SKAMapVC.xib */; };
 		9A2F8FB81CA2DED400F16C46 /* SKAMapTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2F8FB71CA2DED400F16C46 /* SKAMapTableVC.m */; };
@@ -61,6 +62,12 @@
 		9A394FCF1CA3C81700B66323 /* PinyinHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A394FC81CA3C81700B66323 /* PinyinHelper.m */; };
 		9A394FD01CA3C81700B66323 /* unicode_to_hanyu_pinyin.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A394FCA1CA3C81700B66323 /* unicode_to_hanyu_pinyin.txt */; };
 		9A394FD31CA3C85900B66323 /* SKSearchToolVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A394FD21CA3C85900B66323 /* SKSearchToolVC.m */; };
+		9A512AA11D3F59EF00437537 /* SKSortVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A512A9F1D3F59EF00437537 /* SKSortVC.m */; };
+		9A512AA21D3F59EF00437537 /* SKSortVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A512AA01D3F59EF00437537 /* SKSortVC.xib */; };
+		9A6A8AF41D506CCF0073EED4 /* SKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6A8AF31D506CCF0073EED4 /* SKTextView.m */; };
+		9A6A8AFC1D5087C10073EED4 /* PINURLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6A8AF71D5087C10073EED4 /* PINURLCache.m */; };
+		9A6A8AFD1D5087C10073EED4 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6A8AF91D5087C10073EED4 /* Reachability.m */; };
+		9A6A8AFE1D5087C10073EED4 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6A8AFB1D5087C10073EED4 /* Util.m */; };
 		9A7E51B01CBCA04A0096FD15 /* JMLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7E51AE1CBCA04A0096FD15 /* JMLoginVC.m */; };
 		9A7E51B11CBCA04A0096FD15 /* JMLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A7E51AF1CBCA04A0096FD15 /* JMLoginVC.xib */; };
 		9A7E51B51CBCC52F0096FD15 /* SKThirdLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7E51B31CBCC52F0096FD15 /* SKThirdLoginVC.m */; };
@@ -69,6 +76,8 @@
 		9A8663491CABD44B00B74FA7 /* SKFMDBTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8663481CABD44B00B74FA7 /* SKFMDBTool.m */; };
 		9A86634C1CABD46D00B74FA7 /* dataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A86634B1CABD46D00B74FA7 /* dataModel.m */; };
 		9A86634F1CACB61800B74FA7 /* EZDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A86634E1CACB61800B74FA7 /* EZDAlertView.m */; };
+		9A9B023A1CC0D07E00C1C8AF /* SKCaiPiao.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9B02381CC0D07E00C1C8AF /* SKCaiPiao.m */; };
+		9A9B023B1CC0D07E00C1C8AF /* SKCaiPiao.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A9B02391CC0D07E00C1C8AF /* SKCaiPiao.xib */; };
 		9A9F59631CA29B01004B7380 /* SKNetworkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9F59611CA29B01004B7380 /* SKNetworkVC.m */; };
 		9A9F59641CA29B01004B7380 /* SKNetworkVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A9F59621CA29B01004B7380 /* SKNetworkVC.xib */; };
 		9A9F596A1CA29DB2004B7380 /* default1242-2208@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A9F59661CA29DB2004B7380 /* default1242-2208@2x.png */; };
@@ -100,6 +109,7 @@
 		9AB0486B1CA39A3A00DE03B3 /* SKAMapSearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB048691CA39A3A00DE03B3 /* SKAMapSearchVC.m */; };
 		9AB0486C1CA39A3A00DE03B3 /* SKAMapSearchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AB0486A1CA39A3A00DE03B3 /* SKAMapSearchVC.xib */; };
 		9AD06E601CAA1FCF00EF81CA /* SKOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD06E5F1CAA1FCF00EF81CA /* SKOperation.m */; };
+		9AE7F3581D51F9B800E9901D /* SKImgCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE7F3571D51F9B800E9901D /* SKImgCodeView.m */; };
 		D575D1C837594200A8C1ABC3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABD330B19EBA073B504D4131 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -128,6 +138,7 @@
 		9A0418F31CBB7A5300C0DBC2 /* loginAgree@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginAgree@3x.png"; sourceTree = "<group>"; };
 		9A0418F41CBB7A5300C0DBC2 /* loginDisAgree@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginDisAgree@2x.png"; sourceTree = "<group>"; };
 		9A0418F51CBB7A5300C0DBC2 /* loginDisAgree@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginDisAgree@3x.png"; sourceTree = "<group>"; };
+		9A0835B81D1CCB39000CEA17 /* appclient.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = appclient.p12; sourceTree = "<group>"; };
 		9A0B787C1CA28282004FF038 /* SKToolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKToolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0B78801CA28282004FF038 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9A0B78821CA28282004FF038 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -193,6 +204,7 @@
 		9A0B7A251CA2956F004FF038 /* Single.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Single.h; sourceTree = "<group>"; };
 		9A0B7A281CA2956F004FF038 /* SKHttpToolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKHttpToolManager.h; sourceTree = "<group>"; };
 		9A0B7A291CA2956F004FF038 /* SKHttpToolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKHttpToolManager.m; sourceTree = "<group>"; };
+		9A1DF4F01D263E5400C0848F /* appclient.cer */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = appclient.cer; sourceTree = "<group>"; };
 		9A2F8FB11CA2DE8E00F16C46 /* SKAMapVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKAMapVC.h; sourceTree = "<group>"; };
 		9A2F8FB21CA2DE8E00F16C46 /* SKAMapVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKAMapVC.m; sourceTree = "<group>"; };
 		9A2F8FB31CA2DE8E00F16C46 /* SKAMapVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SKAMapVC.xib; sourceTree = "<group>"; };
@@ -220,6 +232,17 @@
 		9A394FCA1CA3C81700B66323 /* unicode_to_hanyu_pinyin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = unicode_to_hanyu_pinyin.txt; sourceTree = "<group>"; };
 		9A394FD11CA3C85900B66323 /* SKSearchToolVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSearchToolVC.h; sourceTree = "<group>"; };
 		9A394FD21CA3C85900B66323 /* SKSearchToolVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSearchToolVC.m; sourceTree = "<group>"; };
+		9A512A9E1D3F59EF00437537 /* SKSortVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSortVC.h; sourceTree = "<group>"; };
+		9A512A9F1D3F59EF00437537 /* SKSortVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSortVC.m; sourceTree = "<group>"; };
+		9A512AA01D3F59EF00437537 /* SKSortVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SKSortVC.xib; sourceTree = "<group>"; };
+		9A6A8AF21D506CCF0073EED4 /* SKTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTextView.h; sourceTree = "<group>"; };
+		9A6A8AF31D506CCF0073EED4 /* SKTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTextView.m; sourceTree = "<group>"; };
+		9A6A8AF61D5087C10073EED4 /* PINURLCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PINURLCache.h; sourceTree = "<group>"; };
+		9A6A8AF71D5087C10073EED4 /* PINURLCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINURLCache.m; sourceTree = "<group>"; };
+		9A6A8AF81D5087C10073EED4 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		9A6A8AF91D5087C10073EED4 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		9A6A8AFA1D5087C10073EED4 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		9A6A8AFB1D5087C10073EED4 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
 		9A7E51AD1CBCA04A0096FD15 /* JMLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMLoginVC.h; sourceTree = "<group>"; };
 		9A7E51AE1CBCA04A0096FD15 /* JMLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMLoginVC.m; sourceTree = "<group>"; };
 		9A7E51AF1CBCA04A0096FD15 /* JMLoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JMLoginVC.xib; sourceTree = "<group>"; };
@@ -234,6 +257,9 @@
 		9A86634B1CABD46D00B74FA7 /* dataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dataModel.m; sourceTree = "<group>"; };
 		9A86634D1CACB61800B74FA7 /* EZDAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZDAlertView.h; sourceTree = "<group>"; };
 		9A86634E1CACB61800B74FA7 /* EZDAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZDAlertView.m; sourceTree = "<group>"; };
+		9A9B02371CC0D07E00C1C8AF /* SKCaiPiao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKCaiPiao.h; sourceTree = "<group>"; };
+		9A9B02381CC0D07E00C1C8AF /* SKCaiPiao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKCaiPiao.m; sourceTree = "<group>"; };
+		9A9B02391CC0D07E00C1C8AF /* SKCaiPiao.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SKCaiPiao.xib; sourceTree = "<group>"; };
 		9A9F59601CA29B01004B7380 /* SKNetworkVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKNetworkVC.h; sourceTree = "<group>"; };
 		9A9F59611CA29B01004B7380 /* SKNetworkVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKNetworkVC.m; sourceTree = "<group>"; };
 		9A9F59621CA29B01004B7380 /* SKNetworkVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SKNetworkVC.xib; sourceTree = "<group>"; };
@@ -284,6 +310,8 @@
 		9AB0486A1CA39A3A00DE03B3 /* SKAMapSearchVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SKAMapSearchVC.xib; sourceTree = "<group>"; };
 		9AD06E5E1CAA1FCF00EF81CA /* SKOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKOperation.h; sourceTree = "<group>"; };
 		9AD06E5F1CAA1FCF00EF81CA /* SKOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKOperation.m; sourceTree = "<group>"; };
+		9AE7F3561D51F9B800E9901D /* SKImgCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKImgCodeView.h; sourceTree = "<group>"; };
+		9AE7F3571D51F9B800E9901D /* SKImgCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKImgCodeView.m; sourceTree = "<group>"; };
 		ABD330B19EBA073B504D4131 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD94F2425B214CDF756AB53C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F4BDE474A66B41EA2EB29625 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -334,6 +362,9 @@
 				9A7E51AD1CBCA04A0096FD15 /* JMLoginVC.h */,
 				9A7E51AE1CBCA04A0096FD15 /* JMLoginVC.m */,
 				9A7E51AF1CBCA04A0096FD15 /* JMLoginVC.xib */,
+				9A9B02371CC0D07E00C1C8AF /* SKCaiPiao.h */,
+				9A9B02381CC0D07E00C1C8AF /* SKCaiPiao.m */,
+				9A9B02391CC0D07E00C1C8AF /* SKCaiPiao.xib */,
 			);
 			path = company;
 			sourceTree = "<group>";
@@ -386,9 +417,12 @@
 				9A0B78C21CA28863004FF038 /* CatogryTool */,
 				9A0B78B51CA28315004FF038 /* controller */,
 				9A0B78B81CA28315004FF038 /* model */,
+				9A6A8AF11D506C3C0073EED4 /* View */,
 				9A0B78881CA28282004FF038 /* Main.storyboard */,
 				9A0B788B1CA28282004FF038 /* Assets.xcassets */,
 				9A0B788D1CA28282004FF038 /* LaunchScreen.storyboard */,
+				9A1DF4F01D263E5400C0848F /* appclient.cer */,
+				9A0835B81D1CCB39000CEA17 /* appclient.p12 */,
 				9A0B78901CA28282004FF038 /* Info.plist */,
 				9A9F596E1CA29DF2004B7380 /* Images.xcassets */,
 				9A0B787F1CA28282004FF038 /* Supporting Files */,
@@ -544,6 +578,7 @@
 				9A9F598B1CA2A546004B7380 /* LocalStoreTool */,
 				9A9F597A1CA2A518004B7380 /* DataAndDateTool */,
 				9A0B7A241CA2956F004FF038 /* HttpTool */,
+				9A6A8AF51D5087C10073EED4 /* WebCache */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -602,6 +637,9 @@
 				9A394FC91CA3C81700B66323 /* Resources */,
 				9A394FD11CA3C85900B66323 /* SKSearchToolVC.h */,
 				9A394FD21CA3C85900B66323 /* SKSearchToolVC.m */,
+				9A512A9E1D3F59EF00437537 /* SKSortVC.h */,
+				9A512A9F1D3F59EF00437537 /* SKSortVC.m */,
+				9A512AA01D3F59EF00437537 /* SKSortVC.xib */,
 			);
 			path = PinYin4Objc;
 			sourceTree = "<group>";
@@ -630,6 +668,30 @@
 				9A394FCA1CA3C81700B66323 /* unicode_to_hanyu_pinyin.txt */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		9A6A8AF11D506C3C0073EED4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9AE7F3561D51F9B800E9901D /* SKImgCodeView.h */,
+				9AE7F3571D51F9B800E9901D /* SKImgCodeView.m */,
+				9A6A8AF21D506CCF0073EED4 /* SKTextView.h */,
+				9A6A8AF31D506CCF0073EED4 /* SKTextView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A6A8AF51D5087C10073EED4 /* WebCache */ = {
+			isa = PBXGroup;
+			children = (
+				9A6A8AF61D5087C10073EED4 /* PINURLCache.h */,
+				9A6A8AF71D5087C10073EED4 /* PINURLCache.m */,
+				9A6A8AF81D5087C10073EED4 /* Reachability.h */,
+				9A6A8AF91D5087C10073EED4 /* Reachability.m */,
+				9A6A8AFA1D5087C10073EED4 /* Util.h */,
+				9A6A8AFB1D5087C10073EED4 /* Util.m */,
+			);
+			path = WebCache;
 			sourceTree = "<group>";
 		};
 		9A8663461CABD44B00B74FA7 /* SKFMDBTool */ = {
@@ -840,7 +902,9 @@
 				9A0418F01CBB6B0000C0DBC2 /* JMLoginUser.xib in Resources */,
 				9A2F8FB51CA2DE8E00F16C46 /* SKAMapVC.xib in Resources */,
 				9A9F59881CA2A518004B7380 /* AMPickerChooseView.xib in Resources */,
+				9A9B023B1CC0D07E00C1C8AF /* SKCaiPiao.xib in Resources */,
 				9A9F599D1CA2CB9D004B7380 /* alertNotice@3x.png in Resources */,
+				9A1DF4F11D263E5400C0848F /* appclient.cer in Resources */,
 				9A7E51B11CBCA04A0096FD15 /* JMLoginVC.xib in Resources */,
 				9A394FBA1CA3C37100B66323 /* SKClassExtensionVC.xib in Resources */,
 				9A0B78CA1CA28964004FF038 /* SKCatogyVC.xib in Resources */,
@@ -860,6 +924,7 @@
 				9A0B788F1CA28282004FF038 /* LaunchScreen.storyboard in Resources */,
 				9A0418F61CBB7A5300C0DBC2 /* loginAgree@2x.png in Resources */,
 				9A0B7A201CA29536004FF038 /* notice_alert_error@2x.png in Resources */,
+				9A512AA21D3F59EF00437537 /* SKSortVC.xib in Resources */,
 				9A0B788C1CA28282004FF038 /* Assets.xcassets in Resources */,
 				9A0B78C11CA28367004FF038 /* SKHomeTableVC.xib in Resources */,
 				9A0B788A1CA28282004FF038 /* Main.storyboard in Resources */,
@@ -939,6 +1004,7 @@
 				9A394FCE1CA3C81700B66323 /* PinyinFormatter.m in Sources */,
 				9A0B78C91CA28964004FF038 /* SKCatogyVC.m in Sources */,
 				9A0B7A1F1CA29536004FF038 /* AMNoticeAlertView.m in Sources */,
+				9A512AA11D3F59EF00437537 /* SKSortVC.m in Sources */,
 				9A0B7A181CA29536004FF038 /* bitstream.c in Sources */,
 				9A0B78B91CA28315004FF038 /* ViewController.m in Sources */,
 				9A394FCB1CA3C81700B66323 /* ChineseToPinyinResource.m in Sources */,
@@ -960,10 +1026,12 @@
 				9A0B78DC1CA28AE7004FF038 /* NSDictionary+SKDic.m in Sources */,
 				9A9F598A1CA2A518004B7380 /* UIViewController+AMPickerTool.m in Sources */,
 				9A0B7A1A1CA29536004FF038 /* qrencode.c in Sources */,
+				9A9B023A1CC0D07E00C1C8AF /* SKCaiPiao.m in Sources */,
 				9A86634F1CACB61800B74FA7 /* EZDAlertView.m in Sources */,
 				9A0B78811CA28282004FF038 /* main.m in Sources */,
 				9A9F59791CA2A392004B7380 /* SKHTTPSessionManager.m in Sources */,
 				9A0B7A2B1CA2956F004FF038 /* SKHttpToolManager.m in Sources */,
+				9A6A8AF41D506CCF0073EED4 /* SKTextView.m in Sources */,
 				9A0B78D91CA28AE7004FF038 /* NSArray+SKArray.m in Sources */,
 				9A2F8FB41CA2DE8E00F16C46 /* SKAMapVC.m in Sources */,
 				9A8663491CABD44B00B74FA7 /* SKFMDBTool.m in Sources */,
@@ -978,10 +1046,12 @@
 				9A394FB51CA3C32000B66323 /* SKCountDownBtn.m in Sources */,
 				9A9F598E1CA2A546004B7380 /* SKLocalStoreTool.m in Sources */,
 				9A9F59941CA2C690004B7380 /* SKAlertView.m in Sources */,
+				9A6A8AFC1D5087C10073EED4 /* PINURLCache.m in Sources */,
 				9A86634C1CABD46D00B74FA7 /* dataModel.m in Sources */,
 				9AD06E601CAA1FCF00EF81CA /* SKOperation.m in Sources */,
 				9A0B78C51CA28896004FF038 /* NSString+SKString.m in Sources */,
 				9A9F59901CA2A622004B7380 /* Foundation+Log.m in Sources */,
+				9A6A8AFE1D5087C10073EED4 /* Util.m in Sources */,
 				9A9F59A01CA2D13A004B7380 /* SKBaseModel.m in Sources */,
 				9A394FD31CA3C85900B66323 /* SKSearchToolVC.m in Sources */,
 				9A9F59761CA2A217004B7380 /* UIViewController+AMAutoKeyBoardVC.m in Sources */,
@@ -996,7 +1066,9 @@
 				9A394FB41CA3C32000B66323 /* SKClickEffectBtn.m in Sources */,
 				9A0B78BC1CA2833F004FF038 /* SKBaseVC.m in Sources */,
 				9A0B78DE1CA28AE7004FF038 /* UIImage+SKImage.m in Sources */,
+				9A6A8AFD1D5087C10073EED4 /* Reachability.m in Sources */,
 				9A9F59871CA2A518004B7380 /* AMPickerChooseView.m in Sources */,
+				9AE7F3581D51F9B800E9901D /* SKImgCodeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

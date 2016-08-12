@@ -24,6 +24,7 @@
 #pragma mark --暂时测试--
 #import "JMLoginUser.h"
 #import "JMLoginVC.h"
+#import "SKCaiPiao.h"
 const NSString* AMapAndSearchKey = @"ff5c7938ed2f0d81eb1e4005710fef19";
 const NSString* UMAppKey = @"570c8bae67e58e7bd7000853";
 @interface AppDelegate ()
@@ -45,6 +46,7 @@ const NSString* UMAppKey = @"570c8bae67e58e7bd7000853";
     
     
     self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[[SKHomeTableVC alloc] init]];
+//    self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[[SKCaiPiao alloc] init]];
     return YES;
 }
 
@@ -96,4 +98,11 @@ const NSString* UMAppKey = @"570c8bae67e58e7bd7000853";
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+@end
+
+@implementation NSURLRequest(DataController)
++ (BOOL)allowsAnyHTTPSCertificateForHost:(NSString *)host
+{
+    return YES;
+}
 @end

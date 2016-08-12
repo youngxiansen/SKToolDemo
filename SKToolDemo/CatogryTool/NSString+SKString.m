@@ -61,15 +61,16 @@
 {
     NSString* timeStr;
     if (date) {
-        timeStr = [NSString stringWithFormat:@"%.0f",(float)(date.timeIntervalSince1970)];
+        timeStr = [NSString stringWithFormat:@"%.0lf",(date.timeIntervalSince1970)];
     }
     else{
         NSDate* currentDate = [NSDate date];
-        timeStr = [NSString stringWithFormat:@"%.0f",(float)(currentDate.timeIntervalSince1970)];
+        timeStr = [NSString stringWithFormat:@"%.0lf",(currentDate.timeIntervalSince1970)];
     }
     if ([NSString isNilOrEmptyString:timeStr]) {
         NSLog(@"**************时间戳为空****************");
     }
+    
     return timeStr;
 }
 
@@ -144,7 +145,6 @@
  */
 +(BOOL)isNilOrEmptyString:(NSString*)string
 {
-    
     if ([string isKindOfClass:[NSNull class]]) {
         SKTestStrLog(@"**********传入的字符串%@为NULL**********",string);
         return YES;
@@ -209,8 +209,33 @@
     for (int i = 0; i < [str length]; i++)
     {
         unichar subChar = [str characterAtIndex:i];
+        
+        NSLog(@"%c",subChar);
         if (subChar > 47 && subChar < 58)
         {
+            return YES;
+        }
+    }
+    return NO;
+}
+
+/**
+ *  判断字符串中是否有英语字母YES有数字NO没有数字
+ *  @return YES有数字NO没有数字
+ */
++(BOOL)isStringHaveLetterWithStr:(NSString*)str
+{
+    for (int i = 0; i < [str length]; i++)
+    {
+        unichar subChar = [str characterAtIndex:i];
+        
+        NSLog(@"%c",subChar);
+        if (subChar >=65 && subChar <= 90)
+        {
+            return YES;
+        }
+        
+        if (subChar >= 97 && subChar <= 122) {
             return YES;
         }
     }
@@ -429,6 +454,77 @@
     NSURL* cachesURL =[urls objectAtIndex:0];
     NSString* cachesPath = [cachesURL path];
     return cachesPath;
+}
+
+/**
+ *  看保留几位小数 
+ *  num 为保留的小数
+ */
++(NSString*)skHandleFloatNumber:(NSString*)str
+{
+    NSString *specialCharRegex = @"^[A-Za-z\u4E00-\u9FA5_-]+$"; //匹配特殊字符
+    NSPredicate *specialCharTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", specialCharRegex];
+    if ([specialCharTest evaluateWithObject:str]) {
+        return str;
+    }
+    NSInteger num = 2;
+    switch (num) {
+        case 0:
+            str = [NSString stringWithFormat:@"%.0f",[str floatValue]];
+            break;
+        case 1:
+            str = [NSString stringWithFormat:@"%.1f",[str floatValue]];
+            break;
+        case 2:
+            str = [NSString stringWithFormat:@"%.2f",[str floatValue]];
+            break;
+        case 3:
+            str = [NSString stringWithFormat:@"%.3f",[str floatValue]];
+            break;
+            
+        default:
+            break;
+    }
+    return str;
+}
+
+/**
+ *  取整数 如果小数部分大于0的话整数加1
+ */
++(NSString*)getUpperIntString:(NSString*)str
+{
+    if ([str rangeOfString:@"."].location != NSNotFound) {
+        NSArray* arr = [str componentsSeparatedByString:@"."];
+        if ([arr[1] integerValue] > 0) {
+            return [NSString stringWithFormat:@"%ld",([arr[0] integerValue]+1)];
+        }
+        else{
+            return str;
+        }
+    }
+    return str;
+}
+
+
++(NSString*)changeLowerCharToUpper:(NSString*)str
+{
+    for (int i = 0; i < [str length]; i++)
+    {
+        unichar subChar = [str characterAtIndex:i];
+        
+        //大写
+        if (subChar >= 65 && subChar <= 90)
+        {
+            continue;
+        }
+        
+        //小写
+        if (subChar >= 97 && subChar <= 122) {
+            str = [str stringByReplacingOccurrencesOfString:[NSString stringWithFormat:@"%c",subChar] withString:[NSString stringWithFormat:@"%c",subChar-32]];
+            continue;
+        }
+    }
+    return str;
 }
 
 @end

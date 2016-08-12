@@ -23,6 +23,7 @@ static SKHttpToolManager* _s;
             _s = [[self alloc]initWithBaseURL:[NSURL URLWithString:kBaseUrl]];
             _s.requestSerializer = [AFHTTPRequestSerializer serializer];
             _s.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/html", nil];
+            
         }
     });
     return _s;
